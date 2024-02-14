@@ -1,0 +1,27 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+#headerdiv{
+          height: 800px;
+          background-color: aqua;
+}
+#img-parent{
+           overflow: hidden;
+}
+img{
+          transition: 0.5s;
+}
+#img-parent img:hover{
+          transform: scale(1.5);
+}
+
+#img-bg{
+          background-image: url(img/bgi.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+}
+
